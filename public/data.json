@@ -1,0 +1,122 @@
+[
+    {"img":"https://post.healthline.com/wp-content/uploads/2019/09/woman-doing-frontal-lunges-indoors-in-a-flat-1296x728-header-1296x728.jpg", 
+    "name":"Lunges",
+    "details":"Challenging your balance is an essential part of a well-rounded exercise routine. Lunges do just that, promoting functional movement while also increasing strength in your legs and glutes.",
+    "age":"20-25",
+    "time":"40"
+
+
+     },
+
+     {
+        "img":"https://th.bing.com/th/id/OIP.pkGreH15LN8tg85M3iA9fAHaD4?w=340&h=180&c=7&r=0&o=5&pid=1.7",
+        "name":"Pushups",
+        "details":"Drop and give me 20! Pushups are one of the most basic yet effective bodyweight moves you can perform because of the number of muscles that are recruited to perform them.",
+        "age":"18-60",
+        "time":"50"
+     },
+
+     {
+        "img":"https://th.bing.com/th/id/OIP.YrkZsxZmAql1yC8rv2QL2AHaEg?w=295&h=180&c=7&r=0&o=5&pid=1.7",
+        "name":"Squats",
+        "details":"Squats increase lower body and core strength, as well as flexibility in your lower back and hips. Because they engage some of the largest muscles in the body, they also pack a major punch in terms of calories burned.",
+        "age":"18-60",
+        "time":"60"
+     },
+     
+     {
+        "img":"https://th.bing.com/th/id/OIP.5ZbmXJ7qfWCRKo9MS1PJoQHaEK?w=300&h=180&c=7&r=0&o=5&pid=1.7",
+        "name":"Standing overhead dumbbell presses",
+        "details":"Compound exercises, which utilize multiple joints and muscles, are perfect for busy bees as they work several parts of your body at once. A standing overhead press isn’t only one of the best exercises you can do for your shoulders, but it also engages your upper back and core.",
+        "age":"18-60",
+        "time":"40"
+     },
+     {
+        "img":"https://th.bing.com/th/id/OIP.RtQymzAR7djsrYHB1cZjswHaD4?w=334&h=180&c=7&r=0&o=5&pid=1.7",
+        "name":" Dumbbell rows",
+        "details":"Not only will these make your back look killer in that dress, but dumbbell rows are also another compound exercise that strengthens multiple muscles in your upper body. ",
+        "age":"18-60",
+        "time":"56"
+     },
+     {
+        "img":"https://th.bing.com/th/id/OIP.hLxYDcmoQGhqjxLe1AfebQHaFs?w=232&h=180&c=7&r=0&o=5&pid=1.7",
+        "name":" Single-leg deadlifts ",
+        "details":"This is another exercise that challenges your balance. Single-leg deadlifts require stability and leg strength. Grab a light to moderate dumbbell to complete this move.",
+        "age":"18-60",
+        "time":"65"
+     },
+     {
+        "img":"https://th.bing.com/th/id/OIP.BI4OvtzUIZSUjO3fmMyExwHaEK?w=302&h=180&c=7&r=0&o=5&pid=1.7",
+        "name":"Glute bridge",
+        "details":"The glute bridge effectively works your entire posterior chain, which isn’t only good for you, but it’ll make your booty look perkier, too.",
+        "age":"18-60",
+        "time":"30"
+     },
+     {
+        "img":"https://cdn.jackedgorilla.com/wp-content/uploads/2021/10/Best-Upper-Body-Exercises-Hanging-Leg-Raises.jpg",
+        "name":"Free-Hanging",
+        "details":"The free-hanging nature of hanging leg raises makes them an effective way to stretch out your back muscles  and spne ",
+        "age":"18-60",
+        "time":"30"
+     },
+     {
+        "img":"https://thefitnessphantom.com/wp-content/uploads/2021/10/HIIT-Treadmill-Gym-Workout.jpg",
+        "name":"HIIT Treadmill Gym Workout",
+        "details":"The treadmill is one of the super valuable pieces of equipment you can use in the gym to improve your cardiovascular health and quality of life.",
+        "age":"18-60",
+        "time":"30"
+     },
+
+     {
+        "img":"https://thefitnessphantom.com/wp-content/uploads/2021/10/Stationary-Bike-workout-at-the-gym.jpg",
+        "name":" Stationary Bike",
+        "details":"A stationary bike is one of the essential gym machines that nearly all gyms have. It is suitable for all fitness levels, whether male or female, beginner or pro, younger or elder.",
+        "age":"18-60",
+        "time":"20"
+     },
+
+     {
+        "img":"https://thefitnessphantom.com/wp-content/uploads/2021/10/Battle-Rope-HIIT-Workout.jpg",
+        "name":"Battle Rope",
+        "details":" Many of us couldn’t complete battling ropes for a minute at a fast speed.Battling rope is one of the best workouts you can include in your HIIT gym workout routine at the gym.",
+        "age":"18-60",
+        "time":"30"
+     },
+     {
+        "img":"https://thefitnessphantom.com/wp-content/uploads/2021/10/Jumping-Rope-HIIT-Workout.jpg",
+        "name":" Jumping Rope",
+        "details":"Jump rope workout decreases body mass, waist-hip ratio, fat mass, lower blood sugars, boost metabolism, and improve aerobic fitness in obese adolescent boys. ",
+        "age":"18-60",
+        "time":"30"
+     },
+     {
+        "img":"https://thefitnessphantom.com/wp-content/uploads/2021/10/HIIT-Elliptical-Cross-Trainer-Gym-Workout.jpg",
+        "name":"HIIT Elliptical Cross Trainer Gym Workout",
+        "details":"Incorporating elliptical machine workouts into a gym HIIT program increases VO2 max. It slightly reduces body mass index (BMI) in overweight people – shown in the analysis published by the Obesity Science and Practice.",
+        "age":"18-60",
+        "time":"30"
+     },
+     {
+        "img":"https://thefitnessphantom.com/wp-content/uploads/2021/10/HIIT-Rowing-Machine-Workout.jpg",
+        "name":"Rowing Machine",
+        "details":"Rowing is one of the best cardio workouts you can do in the gym to shed plenty of calories in a quick time. Like Elliptical Trainer, the rowing machine is also suitable for all fitness levels",
+        "age":"18-60",
+        "time":"30"
+     },
+     {
+        "img":"https://thefitnessphantom.com/wp-content/uploads/2021/10/HIIT-Punching-Bag-Gym-Exercise.jpg",
+        "name":"HIIT Punching Bag Gym Workout",
+        "details":"Hitting punches at a heavy bag simultaneously strengthens various muscles of the upper and lower body, especially arms.",
+        "age":"18-60",
+        "time":"30"
+     },
+     {
+        "img":"https://generationiron.com/wp-content/uploads/2020/09/2-22-696x369.jpg",
+        "name":"The Hardest Gym Exercise",
+        "details":"Muscle-ups aren’t for the faint-hearted. Chances are, you might have never even seen anyone perform the muscle-ups at your gym. Muscle-ups require brute upper body strength and a strong core.",
+        "age":"18-60",
+        "time":"30"
+     }
+
+
+]

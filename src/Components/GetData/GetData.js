@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import Activity from '../Activity/Activity';
 import Card from '../Card/Card';
 import './GetData.css'
 
@@ -11,16 +12,19 @@ const GetData = () => {
     },[])
   
     return (
-        <div >
-              <h3 className='heading'>Select today’s exercise</h3>
-          <div className='card-container'>
-          {
+        <div className='main'>
+              {/* <h3 className='heading'>Select today’s exercise</h3> */}
+             <div className='card-container'>
+              {
                 exercises.map(exercise=><Card key= 
                  {exercise.id} exercise={exercise}>
 
                 </Card>)
-             }
-          </div>
+               }
+             </div>
+             <div className='exercise-details'>
+               <Activity></Activity>
+             </div>
         </div>
     );
 };

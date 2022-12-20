@@ -34,7 +34,7 @@ margin-bottom:10px;
 .card .age{
     font-weight: normal;
     font-size: 12px;
-    margin-top: 5px;
+      
 }
 
 .add-btn{
@@ -46,7 +46,9 @@ margin-bottom:10px;
     color:white;
     border:none;
     border-radius: 0px 0px 7px 7px;
+    position: absolute;
     bottom: 0;
+
 
 }
 

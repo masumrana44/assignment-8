@@ -1,13 +1,14 @@
 
 import './App.css';
+import GetData from './Components/GetData/GetData';
 import Header from './Components/Header/Header';
 
 function App() {
   return (
-    <div>
-        <Header>
+    <div className='App'>
+        <Header/>
+         <GetData/>
          
-        </Header>
     </div>
   );
 }

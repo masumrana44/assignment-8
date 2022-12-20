@@ -1,0 +1,9 @@
+.heading{
+    margin-left: 3%;
+}
+
+.card-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:40px;
+}

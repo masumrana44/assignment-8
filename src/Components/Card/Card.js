@@ -2,8 +2,11 @@ import React, { useEffect, useState } from 'react';
 import './Card.css'
 
 const Card = (props) => {
-    const {id,img,name,details,time,age}=props.exercise;
+    const {hundleFunction,exercise}=props
+    const {id,img,name,details,time,age}=exercise;
     const detail=details.slice(0,200)
+    // console.log(hundleFunction)
+
     return (
         <div className='card-container'>
             <div className='card'>
@@ -14,7 +17,8 @@ const Card = (props) => {
                    <p className='age'>For Age:{age}</p>
                    <p className='age'>Time Required: {time}s</p>
                 </div>
-                <button className='add-btn' type="">Add to list</button>
+                <button onClick={()=>hundleFunction(time)}   
+                 className='add-btn' type="">Add to list</button>
             </div>
         </div>
     );

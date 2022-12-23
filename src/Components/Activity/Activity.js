@@ -3,7 +3,20 @@ import './Activity.css';
 import Myself from '../img/IMG_20221120_091518-removebg-preview.png'
 import Icons from '../Icons/Icons';
 
-const Activity = () => {
+const Activity = (props) => {
+    const {times}=props;
+    // console.log(typeof times[2])
+    //  let totalTime=times.reduce((accumulator,currentValue )=>parseInt(accumulator)+ 
+    //   currentValue,[])
+
+    //  console.log(times.length)
+    let total=0;
+
+     for(let i=0;i<times.length;i++){
+        const element=times[i];
+       total=element+total
+     }
+    
     return (
         <div className='exercise-details'>
            <div className='myself'>
@@ -47,7 +60,7 @@ const Activity = () => {
            <div className='exercise-corner'>
             <div className='exercise-time'>
                 <p className='et-heading'>Exercise Time</p>
-                <p><span className='seconds'>00</span> <span 
+                <p><span className='seconds'>{total}</span> <span 
                  className='seconds'>seconds</span></p>
             </div>
             <div className='break-time'>

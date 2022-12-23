@@ -63,6 +63,7 @@ margin-bottom:10px;
 
 /* card responsive for mobile   */
 @media only screen and (max-width:450px) {
+
     .card{
         width: 80%;
         height: 280px;
@@ -78,13 +79,11 @@ margin-bottom:10px;
     
     
     .card img{
-        width:100%;
+        width:97%;
         display: flex;
         justify-content: center;
         align-items: center;
         height: 110px;
-
-          /* margin-right:; */
         border-radius: 7px;
     }
     
@@ -97,7 +96,7 @@ margin-bottom:10px;
     .card p{
         margin:0px;
         font-weight:lighter;
-        font-size: x-small;
+        font-size: 0.7rem;
     }
     .card .age{
         font-weight: normal;

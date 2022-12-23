@@ -5,7 +5,8 @@
      border-radius: 8px;;
      margin-right:3%;
      position:sticky;
-     top:5%;
+     top: 1%;
+    
 
 }
 
@@ -50,6 +51,7 @@ margin-top:6%;
 }
 
 @media only screen and (max-width:450px){
+ 
     .exercise-details{
        position: relative;
         

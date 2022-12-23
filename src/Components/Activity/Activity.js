@@ -46,7 +46,7 @@ const Activity = () => {
            <h2>Exercise Details</h2>
            <div className='exercise-corner'>
             <div className='exercise-time'>
-                <p>Exercise Time</p>
+                <p className='et-heading'>Exercise Time</p>
                 <p><span className='seconds'>00</span> <span 
                  className='seconds'>seconds</span></p>
             </div>

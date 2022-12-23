@@ -148,6 +148,7 @@ margin-top:6%;
     justify-content: center;
     align-items: center;
     text-align: center;
+    cursor: pointer;
     }
 
     .break h4:hover{
@@ -194,7 +195,7 @@ margin-top:6%;
     }
 
     .btn-act{
-        margin:0 20px;
+        margin: 20px 30px 20px;
         font-size: 20px;
         width: 90% !important;
         background-color: #6EC72D;

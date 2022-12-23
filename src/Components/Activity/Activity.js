@@ -1,22 +1,34 @@
-import React from 'react';
+import React, { useState,useEffect } from 'react';
 import './Activity.css';
 import Myself from '../img/IMG_20221120_091518-removebg-preview.png'
 import Icons from '../Icons/Icons';
 
 const Activity = (props) => {
     const {times}=props;
-    // console.log(typeof times[2])
-    //  let totalTime=times.reduce((accumulator,currentValue )=>parseInt(accumulator)+ 
-    //   currentValue,[])
-
-    //  console.log(times.length)
+    const [brek,setBreak]=useState([])
+    console.log(brek)
+    
     let total=0;
 
      for(let i=0;i<times.length;i++){
         const element=times[i];
        total=element+total
      }
+     
     
+    const addToLs=(id)=>{
+        const element=document.getElementById(id);
+       const elementInnerText=element.innerText
+       localStorage.setItem('breakTime',JSON.stringify(elementInnerText))
+    };
+
+    useEffect(()=>{
+      let brekTime=localStorage.getItem('breakTime')
+      const BreakTime=JSON.parse(brekTime)
+       setBreak(BreakTime)
+    },[brek])
+
+   
     return (
         <div className='exercise-details'>
            <div className='myself'>
@@ -49,11 +61,16 @@ const Activity = (props) => {
            </div>
            <h2>Add A Break</h2>
            <div className='break'>
-              <h4>10s</h4>
-              <h4>20s</h4>
-              <h4>30s</h4>
-              <h4>40s</h4>
-              <h4>50s</h4>
+              <h4><span id='first' onClick= 
+               {()=>addToLs('first')} >10</span>s</h4>
+              <h4><span id='second' onClick= 
+               {()=>addToLs('second')} >20</span>s</h4>
+              <h4><span id='third' onClick= 
+               {()=>addToLs('third')}>30</span>s</h4>
+              <h4><span id='fourth' onClick= 
+               {()=>addToLs('fourth')}>40</span>s</h4>
+              <h4><span id='fifth' onClick= 
+               {()=>addToLs('fifth')}>50</span>s</h4>
            </div>
 
            <h2>Exercise Details</h2>
@@ -65,8 +82,8 @@ const Activity = (props) => {
             </div>
             <div className='break-time'>
                 <p>Break Time</p>
-                <p><span className='seconds'>00</span> <span 
-                 className='seconds'>seconds</span></p>
+                <p><span className='seconds'> {brek}</span>
+                <span className='seconds'>seconds</span></p>
             </div>
            </div>
             <button className='btn-act' type="">Activity 

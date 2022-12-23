@@ -1,11 +1,19 @@
+.header{
+  
+}
 .logo{
   display: flex;
   align-items: center;
   margin-left: 2%;
-  margin-top:4%;
+  margin-top: 2%;
+  margin-bottom: 4%;
+   
+   
+   
 }
 
 .logo img{
     width: 80px;
+    
 }
 

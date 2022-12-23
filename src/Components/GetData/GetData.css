@@ -1,9 +1,8 @@
 .main{
   
   display: grid;
-  grid-template-columns: 4fr 2fr;
+  grid-template-columns: 3fr 2fr;
   
-   
  
 }
 
@@ -14,5 +13,33 @@
 .card-container{
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    gap:40px;
+    gap:10px;
+}
+
+
+@media only screen and (max-width:450px) {
+  .main{
+     display: flex;
+     flex-direction: column-reverse;
+
+  }
+  .exercise-details{
+   margin:0px;
+   position: inherit;
+   margin-bottom: 30px;
+  }
+  .card-container{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+     
+  }
+
+}
+
+.btn-act{
+  margin-top: 20px;
+    
+  padding:15px;
+   
+  
 }

@@ -1,5 +1,6 @@
 .card-container{
     margin-left: 3%;
+     
 }
 
 .card img{
@@ -58,4 +59,72 @@ margin-bottom:10px;
 
 .card-details{
     margin-left: 5px;
+}
+
+/* card responsive for mobile   */
+@media only screen and (max-width:450px) {
+    .card{
+        width: 80%;
+        height: 280px;
+        margin:0 6%;
+        overflow: hidden;
+        margin-bottom: 20px;
+        background-color:whitesmoke;
+        border-radius: 8px;
+        border:1px soild #758283;
+        position: relative;
+    
+    }
+    
+    
+    .card img{
+        width:100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 110px;
+
+          /* margin-right:; */
+        border-radius: 7px;
+    }
+    
+    
+    
+    .card h4{
+    margin: 0px;
+    margin-bottom:10px;
+    }
+    .card p{
+        margin:0px;
+        font-weight:lighter;
+        font-size: x-small;
+    }
+    .card .age{
+        font-weight: normal;
+        font-size: 12px;
+          
+    }
+    
+    .add-btn{
+        width:100%;
+        padding:7px;
+        margin-top: 8px;
+        background-color:#6EC72D;
+        font-weight:500;
+        color:white;
+        border:none;
+        border-radius: 0px 0px 7px 7px;
+        position: absolute;
+        bottom: 0;
+    
+    
+    }
+    
+    .add-btn:hover{
+        background-color: #F4BE2C;
+    }
+    
+    .card-details{
+        margin-left: 5px;
+    }
 }

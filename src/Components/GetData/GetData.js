@@ -13,7 +13,7 @@ const GetData = () => {
   
     return (
         <div className='main'>
-              {/* <h3 className='heading'>Select today’s exercise</h3> */}
+             
              <div className='card-container'>
               {
                 exercises.map(exercise=><Card key= 

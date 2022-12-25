@@ -39,6 +39,7 @@ const GetData = () => {
              <div className='exercise-details'>
                <Activity times={times} ></Activity>
              </div>
+             
         </div>
     );
 };

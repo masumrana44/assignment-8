@@ -18,15 +18,14 @@ const Activity = (props) => {
     
     const addToLs=(id)=>{
         const element=document.getElementById(id);
-       const elementInnerText=element.innerText
-       localStorage.setItem('breakTime',JSON.stringify(elementInnerText))
+       const elementInnerText=element.innerText;      localStorage.setItem('breakTime',JSON.stringify(elementInnerText))
     };
 
     useEffect(()=>{
       let brekTime=localStorage.getItem('breakTime')
       const BreakTime=JSON.parse(brekTime)
        setBreak(BreakTime)
-    },[brek])
+    },[])
 
    
     return (

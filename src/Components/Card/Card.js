@@ -20,7 +20,11 @@ const Card = (props) => {
                 <button onClick={()=>hundleFunction(time)}   
                  className='add-btn' type="">Add to list</button>
             </div>
+            
+            
+
         </div>
+         
     );
 };
 
